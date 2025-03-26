@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    border: 1px solid black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.grid-one {
+
+}
+
+.grid-two {
+
+}
+
+.grid-three {
+
+}
+
+.grid-four {
+
+}
+
+.grid-five {
+    
+}
