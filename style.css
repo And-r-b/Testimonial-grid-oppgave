@@ -5,26 +5,27 @@
     font-weight: 500 - 600;
 
 */
-
-
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     font-size: 13px;
     background-color: #f3f4f6;
     height: 100vh;
-    font-family: "Barlow Semi Condensed", sans-serif;
 }
 
+/* Main Div Container */
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     gap: 20px;
-    width: 1440px;
-    height: 700px;
+    max-width: 1280px;
 }
 
 h3 {
@@ -58,7 +59,7 @@ h5 h6 p {
     color: white;
     padding: 20px;
     border-radius: 10px;
-    grid-column: 2 / 4;
+    grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
 
@@ -67,7 +68,7 @@ h5 h6 p {
     color: white;
     padding: 20px;
     border-radius: 10px;
-    grid-column: 1 / 2;
+    grid-column: 2 / 4;
     grid-row: 2 / 3;
 }
 
